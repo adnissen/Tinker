@@ -23,8 +23,7 @@ domo = new Domo({
   channels: ['#dota'],
   users: [
     {
-      username: 'ambushsabre',
-      password: 'barley'
+      
     }
   ],
   debug: true
