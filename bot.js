@@ -11,7 +11,7 @@ domo = new Domo({
   userName: 'Tinker',
   realName: 'Tinker the Dota Bot',
   address: 'irc.synirc.net',
-  channels: ['#testing'],
+  channels: ['#dota'],
   users: [
     {
       username: 'ambushsabre',
