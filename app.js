@@ -3,6 +3,15 @@ var items = {"clarity": "Use: Restores mana over time. If the user is attacked, 
 var Domo, domo;
 Domo = require('domo-kun');
 
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res){
+  res.send("TinkerBot!");
+});
+
+app.listen(5000);
+
 var request = require('request');
 var jsdom = require("jsdom");
 
@@ -44,7 +53,7 @@ domo.route('!item :item', function(res){
             ["http://code.jquery.com/jquery.js"],
             function(er, w){
               var full = w.$('.self-clear .mb3').text() + w.$('.box-t').text();
-              full = full.replace(/(\r\n|\n|\r)/gm,"");
+              full = full.replace(/(\r\n|\n|\r)/gm," ");
               domo.say(res.channel, full);
 
             }

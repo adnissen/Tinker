@@ -1,10 +1,11 @@
 {
   "name": "tinker",
-  "version": "0.1.0",
+  "version": "0.1.0 ",
   "engines": {
     "node": "0.10.20"
   },
   "dependencies": {
+    "express": "3.x",
     "domo-kun": "0.1.4",
     "irc": "0.3.4",
     "underscore": "~1.4.4",
