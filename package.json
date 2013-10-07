@@ -1,0 +1,46 @@
+{
+  "name": "domo-kun",
+  "version": "0.1.4",
+  "engines": {
+    "node": "0.9.3"
+  },
+  "dependencies": {
+    "irc": "0.3.4",
+    "underscore": "~1.4.4",
+    "underscore.string": "~2.3.3",
+    "routes": "~0.2.0",
+    "colors": "~0.6.2",
+    "q": "~0.9.7",
+    "request": "2.27.0",
+    "qs": "~0.6.0",
+    "json-stringify-safe": "~5.0.0",
+    "forever-agent": "~0.5.0",
+    "tunnel-agent": "~0.3.0",
+    "http-signature": "~0.10.0",
+    "hawk": "~1.0.0",
+    "aws-sign": "~0.3.0",
+    "oauth-sign": "~0.3.0",
+    "cookie-jar": "~0.3.0",
+    "node-uuid": "~1.4.0",
+    "mime": "~1.2.9",
+    "form-data": "~0.1.0",
+    "jsdom": ">= 0.2.0"
+  },
+  "readmeFilename": "README.md",
+  "description": "The most awesome thing ever",
+  "devDependencies": {
+    "james": "~0.1.15",
+    "james-uglify": "~0.1.0",
+    "james-coffee": "~0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rikukissa/domo.git"
+  },
+  "keywords": [
+    "irc",
+    "bot"
+  ],
+  "author": "Riku Rouvila",
+  "license": "BSD"
+}
