@@ -1,10 +1,11 @@
 {
-  "name": "domo-kun",
-  "version": "0.1.4",
+  "name": "tinker",
+  "version": "0.1",
   "engines": {
     "node": "0.10.20"
   },
   "dependencies": {
+    "domo-kun": "0.1.4",
     "irc": "0.3.4",
     "underscore": "~1.4.4",
     "underscore.string": "~2.3.3",
