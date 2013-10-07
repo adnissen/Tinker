@@ -10,7 +10,7 @@ app.get('/', function(req, res){
   res.send("TinkerBot!");
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
 
 var request = require('request');
 var jsdom = require("jsdom");
@@ -52,7 +52,7 @@ domo.route('!item :item', function(res){
             b,
             ["http://code.jquery.com/jquery.js"],
             function(er, w){
-              var full = w.$('.self-clear .mb3').text() + w.$('.box-t').text();
+              var full = w.$('.self-clear .mb3').text();
               full = full.replace(/(\r\n|\n|\r)/gm," ");
               domo.say(res.channel, full);
 
