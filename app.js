@@ -52,7 +52,7 @@ domo.route('!item :item', function(res){
             b,
             ["http://code.jquery.com/jquery.js"],
             function(er, w){
-              var full = w.$('.self-clear .mb3').text();
+              var full = w.$('.self-clear .mb3').text() + w.$('.box-t').text();
               full = full.replace(/(\r\n|\n|\r)/gm," ");
               domo.say(res.channel, full);
 
